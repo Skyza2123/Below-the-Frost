@@ -35,6 +35,18 @@ cutscenes = {
 
             {"type": "end"},
         ],
+    },
+    "test_raya_enters_hospital": {
+        "ambience": None,
+        "chapter": 0,
+        "time_label": "Hospital Entry",
+        "narrator": "raya",
+        "lock_player": True,
+        "camera_follow": "raya",
+        "script": [
+            {"type": "face", "character": "raya", "dir": "down"},
+            {"type": "wait", "ms": 300},
+            {"type": "end"}
+        ],
     }
-    
 }
