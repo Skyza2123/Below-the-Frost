@@ -272,7 +272,7 @@ class Game:
                 continue
             Character(
                 pos=(obj.x, obj.y),
-                frames=self.overworld_frames["characters"][obj.properties.get("graphic")],
+                frames=self.overworld_frames["characters"].get(obj.properties.get("graphic"), self.overworld_frames["characters"]["raya"]),
                 groups=(self.all_sprites, self.collision_sprites, self.character_sprites),
                 facing_direction=obj.properties.get("direction"),
                 character_data=TRAINER_DATA.get(obj.properties.get("character_id")),
