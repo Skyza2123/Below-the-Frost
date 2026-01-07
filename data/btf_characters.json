@@ -1,0 +1,604 @@
+{
+    "project": "Below the Frost",
+    "story": {
+        "logline": "Telling the story of eight friends trapped in a winter lodge where a prank from two years ago has left something dark in the mines—and on the mountain.",
+        "past_prologue": "Two years ago, on the night of a full moon, Jace pulled a prank on his friends at the Frost Hollow lodge. But when he and Emily woke up in the mines the next day, they realized something much worse than a prank had happened.",
+        "present_ch1": "In the present day, Jace invites everyone back to the mountain lodge to make up for that night—unaware that there is still something else on the mountain, watching and waiting."
+    },
+    "characters": {
+        "raya": {
+            "name": "Raya Rivera",
+            "traits": [
+                "diligent",
+                "considerate",
+                "adventurous"
+            ],
+            "nicknames": {
+                "by_emily": "Rae"
+            },
+            "age": 20,
+            "gender": "female",
+            "status": "determinant",
+            "death_cause": null,
+            "appearance": {
+                "eyes": "green",
+                "hair": "auburn, mid-length, wavy",
+                "height": "slightly taller than average",
+                "build": "fit, athletic (D1 soccer player), not bulky",
+                "notable_features": [
+                    "scar over right eyebrow creating an eyebrow slit"
+                ]
+            },
+            "physical": {
+                "approx_height": "5'8\"",
+                "build": "Fit but not bulky; strong in a practical way rather than ‘gym rat’.",
+                "posture": "Relaxed, often leaning or draping herself over furniture or people she’s close to.",
+                "hair": "Dark hair, often worn in a practical style (ponytail, braid, or messy bun).",
+                "eyes": "Warm, expressive eyes that give away what she’s feeling.",
+                "typical_clothing": "Comfortable jeans or leggings, layered tops, sneakers or boots; tends to dress for movement.",
+                "overall_impression": "Feels approachable and warm; looks like someone who would help you move apartments and make it fun."
+            },
+            "outfit": {
+                "base": "green military jacket, white tank top, jeans, hiking boots",
+                "notes": []
+            },
+            "accessories": [
+                "ring on left index finger",
+                "woven bracelet",
+                "photo of Emily in jacket pocket"
+            ],
+            "about": {
+                "debut": "Chapter 1",
+                "occupation": "college student, D1 soccer player for ISU"
+            },
+            "relationships": {
+                "love_interests": [
+                    "Emily (girlfriend)",
+                    "Noah (determinant)"
+                ],
+                "rivalries": []
+            },
+            "voice": {
+                "vibe": "Warm, playful, brave; golden retriever energy, especially around Emily.",
+                "formality": "casual",
+                "pacing": "medium",
+                "openness": "fairly open but flustered when things get serious or romantic",
+                "humor": "playful, teasing, self-aware",
+                "common_starters": [
+                    "Hey",
+                    "Okay, but—",
+                    "Wait, hold on—"
+                ],
+                "notes": [
+                    "Uses lots of contractions and modern, natural speech.",
+                    "Teases to comfort or defuse tension.",
+                    "When serious or scared, sentences get shorter and more direct with fewer jokes."
+                ],
+                "example_lines": [
+                    "Okay, yeah, maybe it was a bad idea, but you smiled, so I’m calling it a win.",
+                    "I’m not leaving you out here alone. End of discussion."
+                ]
+            }
+        },
+        "emily": {
+            "name": "Emeline von Brixen",
+            "traits": [
+                "intelligent",
+                "resourceful",
+                "persuasive"
+            ],
+            "nicknames": {
+                "general": "Emily",
+                "by_raya": "Em"
+            },
+            "age": 19,
+            "gender": "female",
+            "status": "determinant",
+            "death_cause": null,
+            "appearance": {
+                "eyes": "brown",
+                "hair": "shoulder-length dirty blonde",
+                "height": "shorter than average",
+                "build": "slender, more graceful than athletic",
+                "notable_features": []
+            },
+            "physical": {
+                "approx_height": "around 5'1\"–5'3\"",
+                "build": "Slender, more graceful than athletic; moves deliberately.",
+                "posture": "Straight-backed, controlled; crosses arms or folds hands when thinking.",
+                "hair": "Neat and well-kept; likely straight or slightly wavy, often styled intentionally rather than messy.",
+                "eyes": "Sharp, observant gaze; can look intimidating when she’s annoyed.",
+                "typical_clothing": "Stylish but practical; fitted coats, dark jeans, boots; subtle accessories.",
+                "overall_impression": "Looks put-together and unbothered; gives off ‘do not waste my time’ energy until she relaxes."
+            },
+            "outfit": {
+                "base": "blue zip hoodie, black shirt, jean shorts, leggings, tennis shoes",
+                "notes": []
+            },
+            "accessories": [
+                "woven bracelet",
+                "glasses",
+                "small purse",
+                "ring on left index finger"
+            ],
+            "about": {
+                "debut": "Chapter 1",
+                "occupation": "college student"
+            },
+            "relationships": {
+                "love_interests": [
+                    "Raya (girlfriend)",
+                    "Jace (ex-boyfriend)"
+                ],
+                "rivalries": []
+            },
+            "voice": {
+                "vibe": "Black cat energy; sharp, poised, emotionally guarded but intensely loyal.",
+                "formality": "mid-formal, precise",
+                "pacing": "medium",
+                "openness": "guarded; opens up more in private, especially with Raya",
+                "humor": "dry, cutting, subtle",
+                "common_starters": [
+                    "Right.",
+                    "Of course.",
+                    "Seriously?",
+                    "Obviously."
+                ],
+                "notes": [
+                    "Keeps sentences tight and efficient; rarely rambles.",
+                    "Sarcasm sharpens when she’s stressed or annoyed.",
+                    "When she becomes emotionally honest, sentences lengthen and soften, with fewer jokes."
+                ],
+                "example_lines": [
+                    "Oh good. A mysterious noise in the dark. Let’s absolutely go toward that.",
+                    "You’re ridiculous… and somehow that’s exactly what I needed."
+                ]
+            }
+        },
+        "jace": {
+            "name": "Jace Coleman",
+            "traits": [
+                "driven",
+                "charismatic",
+                "impulsive"
+            ],
+            "nicknames": {
+                "general": [
+                    "Jay",
+                    "JC"
+                ]
+            },
+            "age": 20,
+            "gender": "male",
+            "status": "determinant",
+            "death_cause": null,
+            "appearance": {
+                "eyes": "brown",
+                "hair": "short, messy black hair",
+                "height": "tall-average, athletic build",
+                "build": "athletic, ex-sports vibe",
+                "notable_features": [
+                    "faint stubble"
+                ]
+            },
+            "physical": {
+                "approx_height": "around 6'0\"–6'2\"",
+                "build": "Athletic, solid; ex-sports energy—broad shoulders, strong arms.",
+                "posture": "Upright, grounded; instinctively steps in front of others in tense situations.",
+                "hair": "Practical cut; maybe slightly grown out from his ‘team’ days but still low-maintenance.",
+                "eyes": "Steady, assessing; watches people to make sure they’re okay.",
+                "typical_clothing": "Athletic jackets, flannels, durable pants, boots or sturdy sneakers.",
+                "overall_impression": "Feels like a human shield; calm, dependable presence even when he’s quietly stressed."
+            },
+            "outfit": {
+                "base": "gray flannel shirt, dark jeans, hiking boots, leather wristband",
+                "notes": []
+            },
+            "accessories": [
+                "silver chain (gift from Emily)",
+                "lighter with initials 'JC'",
+                "pocketknife"
+            ],
+            "about": {
+                "debut": "Chapter 1",
+                "occupation": "college student"
+            },
+            "relationships": {
+                "love_interests": [
+                    "Emily (ex)"
+                ],
+                "rivalries": []
+            },
+            "voice": {
+                "vibe": "Confident, energetic; prankster edge with a guilty conscience about the past.",
+                "formality": "casual",
+                "pacing": "medium-fast",
+                "openness": "acts open but hides deeper guilt and fear",
+                "humor": "cocky, situational, sometimes deflective",
+                "common_starters": [
+                    "Relax.",
+                    "Come on.",
+                    "Trust me.",
+                    "Hey, look—"
+                ],
+                "notes": [
+                    "Talks like someone who assumes he can fix things on the fly.",
+                    "Leans into charm when he’s nervous or confronted.",
+                    "Gets more clipped and serious when the prank night or mines are mentioned."
+                ],
+                "example_lines": [
+                    "Look, it was supposed to be a joke, not a trauma event. I’m trying to fix that.",
+                    "I invited everyone back because I’m not letting that night be the last word."
+                ]
+            }
+        },
+        "harper": {
+            "name": "Harper Lin",
+            "traits": [
+                "confident",
+                "opinionated",
+                "outgoing"
+            ],
+            "nicknames": {
+                "general": "Harp"
+            },
+            "age": 19,
+            "gender": "female",
+            "status": "determinant",
+            "death_cause": null,
+            "appearance": {
+                "skin": "olive",
+                "eyes": "brown",
+                "hair": "long, straight black hair",
+                "height": "average but assertive presence",
+                "build": "average, energetic",
+                "notable_features": []
+            },
+            "physical": {
+                "approx_height": "around 5'3\"–5'5\"",
+                "build": "Average, energetic; always moving, gesturing, or fidgeting.",
+                "posture": "Open and animated; talks with her hands a lot.",
+                "hair": "Stylish, possibly dyed or with a distinct cut that fits her expressive vibe.",
+                "eyes": "Very expressive; emotions show instantly—excitement, worry, amusement.",
+                "typical_clothing": "Trendy casual; layered outfits, cute sweaters, accessories that add personality.",
+                "overall_impression": "Feels bright and lively; the friend who makes a room feel less heavy just by walking in."
+            },
+            "outfit": {
+                "base": "cropped denim jacket, red flannel tied around waist, black tank top, ripped jeans, combat boots",
+                "notes": []
+            },
+            "accessories": [
+                "hoop earrings",
+                "silver nose ring",
+                "phone with cracked screen (used for recording)"
+            ],
+            "about": {
+                "debut": "Chapter 1",
+                "occupation": "journalism student / podcast host (True Fear horror podcast)"
+            },
+            "relationships": {
+                "love_interests": [
+                    "Noah (Mutual crush)"
+                ],
+                "rivalries": []
+            },
+            "voice": {
+                "vibe": "Social anchor; expressive, dramatic but emotionally honest; storyteller energy.",
+                "formality": "casual",
+                "pacing": "fast",
+                "openness": "very open; feelings on the surface",
+                "humor": "expressive, playful, sometimes theatrical",
+                "common_starters": [
+                    "Oh my god—",
+                    "Absolutely not.",
+                    "Okay, listen—",
+                    "We are not doing this."
+                ],
+                "notes": [
+                    "Big reactions; heavy on emphasis and interjections.",
+                    "Uses horror/podcast framing when things get tense.",
+                    "Can pivot from joking to soft, sincere comfort very quickly."
+                ],
+                "example_lines": [
+                    "If this turns into a horror episode, I’m at least naming it after myself.",
+                    "Hey. Look at me. You’re not just content, okay? You’re my people."
+                ]
+            }
+        },
+        "noah": {
+            "name": "Noah Sterling",
+            "traits": [
+                "inquisitive",
+                "loyal",
+                "charming"
+            ],
+            "nicknames": {},
+            "age": 20,
+            "gender": "male",
+            "status": "determinant",
+            "death_cause": null,
+            "appearance": {
+                "eyes": "blue-gray",
+                "hair": "light brown, slightly disheveled",
+                "height": "average-tall",
+                "build": "lean, more ‘walks a lot’ than ‘lifts a lot’",
+                "notable_features": [
+                    "gentle demeanor"
+                ]
+            },
+            "physical": {
+                "approx_height": "around 5'9\"–5'11\"",
+                "build": "Lean, not bulky; more ‘walks a lot’ than ‘lifts a lot’.",
+                "posture": "Relaxed but slightly inward; often with hands in pockets or folded.",
+                "hair": "Soft, slightly messy, like he runs his hands through it when thinking.",
+                "eyes": "Thoughtful, calm; tends to hold eye contact in a gentle way.",
+                "typical_clothing": "Layered—hoodies, jackets, beanies; comfortable, neutral tones.",
+                "overall_impression": "Looks like someone who would offer you a headphone and a playlist instead of a speech."
+            },
+            "outfit": {
+                "base": "dark green hoodie, black cargo pants, trail sneakers",
+                "notes": []
+            },
+            "accessories": [
+                "analog watch (stopped at 2:37)",
+                "pocket notebook",
+                "small silver cross"
+            ],
+            "about": {
+                "debut": "Chapter 1",
+                "occupation": "radio host / music production major"
+            },
+            "relationships": {
+                "love_interests": [
+                    "Harper (Mutual crush)"
+                ],
+                "rivalries": []
+            },
+            "voice": {
+                "vibe": "Calm, observant, late-night radio host energy; emotionally intelligent.",
+                "formality": "mid-casual, deliberate",
+                "pacing": "slow-medium with thoughtful pauses",
+                "openness": "quietly open; shares feelings without dramatizing",
+                "humor": "gentle, wry, self-aware",
+                "common_starters": [
+                    "You ever notice…",
+                    "Funny thing is…",
+                    "Here’s the thing…"
+                ],
+                "notes": [
+                    "Speaks in full, measured sentences; rarely blurts.",
+                    "Doesn’t talk over people; adds a calm anchor after others.",
+                    "When he raises his voice, it marks a big emotional beat."
+                ],
+                "example_lines": [
+                    "The quiet up here isn’t empty. It’s… waiting for something.",
+                    "You don’t have to pretend you’re fine. I’m scared too. I’m just better at sounding calm."
+                ]
+            }
+        },
+        "mason": {
+            "name": "Mason Donnelly",
+            "traits": [
+                "motivated",
+                "ambitious",
+                "active"
+            ],
+            "nicknames": {
+                "general": [
+                    "Mace",
+                    "M&M"
+                ]
+            },
+            "age": 19,
+            "gender": "male",
+            "status": "determinant",
+            "death_cause": null,
+            "appearance": {
+                "skin": "mixed-race (Black/White)",
+                "hair": "dark curly undercut",
+                "eyes": "hazel",
+                "height": "average-tall",
+                "build": "broad-shouldered, solid, athletic",
+                "notable_features": []
+            },
+            "physical": {
+                "approx_height": "around 5'11\"–6'1\"",
+                "build": "Broad-shouldered, solid; looks like he could carry two people if needed.",
+                "posture": "Relaxed slouch when calm; paces or gestures big when worked up.",
+                "hair": "Casual, maybe slightly messy; ‘I ran a hand through it and called it done’ style.",
+                "eyes": "Friendly, expressive; eyebrows do a lot of the emoting.",
+                "typical_clothing": "Hoodies, team or graphic tees, athletic pants or jeans, beat-up sneakers.",
+                "overall_impression": "Looks huggable and chaotic; the guy who carries all the heavy stuff without being asked."
+            },
+            "outfit": {
+                "base": "graphic horror tee, oversized plaid overshirt, athletic shorts, hi-top sneakers",
+                "notes": []
+            },
+            "accessories": [
+                "beaded necklace",
+                "smartwatch",
+                "keychain flashlight"
+            ],
+            "about": {
+                "debut": "Chapter 1",
+                "occupation": "college student"
+            },
+            "relationships": {
+                "love_interests": [
+                    "Noah (crush)"
+                ],
+                "rivalries": []
+            },
+            "voice": {
+                "vibe": "Loud, loyal dude-bro; big brother tank energy with hidden anxiety.",
+                "formality": "very casual",
+                "pacing": "fast when excited or stressed",
+                "openness": "semi-guarded; emotions covered with jokes and bravado",
+                "humor": "big, obvious jokes; self-deprecating; exaggerated",
+                "common_starters": [
+                    "Bro—",
+                    "Man, listen—",
+                    "Dude, no way.",
+                    "You gotta be kidding."
+                ],
+                "notes": [
+                    "Fills silence, especially when nervous.",
+                    "Swears casually; intensity of swearing tracks fear level.",
+                    "Tries to sound confident even when he’s clearly improvising."
+                ],
+                "example_lines": [
+                    "Bro, if something jumps out of those trees, I’m throwing you at it and running.",
+                    "No shot I’m letting you go out there alone. I’m dumb, not heartless."
+                ]
+            }
+        },
+        "wyatt": {
+            "name": "Wyatt Beckett",
+            "traits": [
+                "sarcastic",
+                "guarded",
+                "realistic"
+            ],
+            "nicknames": {},
+            "age": 20,
+            "gender": "male",
+            "status": "determinant",
+            "death_cause": null,
+            "appearance": {
+                "skin": "pale",
+                "hair": "brown, short, slicked back",
+                "eyes": "ice-blue",
+                "height": "around average",
+                "build": "lean",
+                "notable_features": [
+                    "sharp facial features"
+                ]
+            },
+            "physical": {
+                "approx_height": "around 5'9\"",
+                "build": "On the lean side; not weak, just not obviously athletic.",
+                "posture": "Slightly hunched, especially in crowds; tends to take up less space.",
+                "hair": "Beanie-friendly hair; a bit messy, like he lets it do its thing.",
+                "eyes": "Tired or thoughtful; tends to flick between people and the floor.",
+                "typical_clothing": "Layers—hoodie, jacket, beanie; practical shoes; looks like he dressed for comfort, not attention.",
+                "overall_impression": "Blends into the background at first; looks like the guy who notices everything and says nothing."
+            },
+            "outfit": {
+                "base": "black leather jacket, gray ripped jeans, combat boots, band tee",
+                "notes": []
+            },
+            "accessories": [
+                "Zippo lighter",
+                "flask",
+                "earbuds (broken on one side)"
+            ],
+            "about": {
+                "debut": "Chapter 1",
+                "occupation": "college student"
+            },
+            "relationships": {
+                "love_interests": [],
+                "rivalries": []
+            },
+            "voice": {
+                "vibe": "Quiet observer with anxious undercurrent; reluctant main-character energy.",
+                "formality": "casual but concise",
+                "pacing": "slow; thinks before speaking",
+                "openness": "guarded; avoids talking about himself directly",
+                "humor": "understated, dry, often tossed away at the end of the line",
+                "common_starters": [
+                    "Guess…",
+                    "Yeah, I’m fine.",
+                    "That’s… one way to do it."
+                ],
+                "notes": [
+                    "Doesn’t use many words; when he speaks, it matters.",
+                    "Says ‘I’m fine’ even when clearly not.",
+                    "Stumbles or backtracks slightly when forced into emotional honesty."
+                ],
+                "example_lines": [
+                    "Didn’t exactly plan on freezing to death today, but sure, let’s add that to the list.",
+                    "I don’t know what I’m doing. I just really don’t want to do this alone."
+                ]
+            }
+        },
+        "avery": {
+            "name": "Avery Moon",
+            "traits": [
+                "curious",
+                "quiet",
+                "superstitious"
+            ],
+            "nicknames": {
+                "general": [
+                    "Aves",
+                    "Moon"
+                ]
+            },
+            "age": 18,
+            "gender": "nonbinary (they/them)",
+            "status": "determinant",
+            "death_cause": null,
+            "appearance": {
+                "skin": "pale, freckled",
+                "hair": "short platinum-blonde",
+                "eyes": "violet-gray",
+                "height": "slightly below average",
+                "build": "soft, slightly bookish",
+                "notable_features": [
+                    "soft facial features"
+                ]
+            },
+            "physical": {
+                "approx_height": "around 5'6\"–5'8\"",
+                "build": "Soft, slightly lanky or bookish; more used to desks than gyms.",
+                "posture": "Leans over tables or railings when explaining things; folds into themselves when embarrassed.",
+                "hair": "A bit unruly; could be curly or just perpetually one step from neat.",
+                "eyes": "Bright and curious; light up when they talk about something they love.",
+                "typical_clothing": "Comfy layers—sweaters, cardigans, scarves; maybe graphic tees with science/space jokes.",
+                "overall_impression": "Looks like someone who would keep you up talking about constellations until 3 AM."
+            },
+            "outfit": {
+                "base": "earth-toned knit sweater, corduroy pants, hiking boots",
+                "notes": []
+            },
+            "accessories": [
+                "tarot cards",
+                "woven charm necklace",
+                "sketchbook"
+            ],
+            "about": {
+                "debut": "Chapter 1",
+                "occupation": "art student / tarot reader"
+            },
+            "relationships": {
+                "love_interests": [
+                    "Wyatt (crush)"
+                ],
+                "rivalries": []
+            },
+            "voice": {
+                "vibe": "Nerdy, observant, slightly awkward; stargazer and supernatural-curious.",
+                "formality": "mid-casual, slightly bookish when explaining things",
+                "pacing": "fast in bursts when excited; hesitant when emotional",
+                "openness": "open about ideas, shy about personal feelings",
+                "humor": "rambling, tangential, sometimes unintentional",
+                "common_starters": [
+                    "Technically…",
+                    "Okay, so—",
+                    "Wait, wait—",
+                    "Statistically speaking…"
+                ],
+                "notes": [
+                    "Info-dumps when they know something; may forget to check if others follow.",
+                    "Corrects themself mid-sentence when flustered.",
+                    "Gets surprisingly clear and direct when things are deadly serious."
+                ],
+                "example_lines": [
+                    "Okay, so, technically the odds of all of this happening are… not great. Which is either comforting or terrifying. Sorry.",
+                    "I’ll stay up and watch the generator. You sleep. I’m better with weird noises than nightmares."
+                ]
+            }
+        }
+    }
+}
