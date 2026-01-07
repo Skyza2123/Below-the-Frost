@@ -35,6 +35,14 @@ cutscenes = {
 
             {"type": "end"},
         ],
-    }
-    
+    },
+
+    # Added so main.entry_cutscenes["hospital"] can play this after map transition
+    "test_raya_enters_hospital": {
+        "script": [
+            {"type": "face", "character": "raya", "dir": "down"},
+            {"type": "wait", "ms": 300},
+            {"type": "end"},
+        ]
+    },
 }
